@@ -1,0 +1,3 @@
+rootProject.name='SkewPdfView'
+include ':app'
+include ':skewpdfview'

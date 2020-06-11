@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SkewPdfView</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script>
+    <style>
+    .button {
+      background-color: #212121; /* Black */
+      border: none;
+      color: white;
+      padding: 10px 26px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+    .button2:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    </style>
+</head>
+<body>
+
+<center>
+    <span id="simpleskewedtopbar">
+    <button id="prevbutton" class="button button2" type="button">❮</button>
+    <button id="zoomoutbutton" class="button button2" type="button">Zoom Out</button>
+    <button id="zoominbutton" class="button button2" type="button">Zoom In</button>
+    <button id="nextbutton" class="button button2" type="button">❯</button>
+
+    <br><br>
+    </span>
+
+    <canvas id="skewpdfcanvas" class="canvas" style="border:1px  solid black"></canvas>
+
+    <p id="error"></p>
+
+</center>
+
+<script src="js/addon/index.js"></script>
+
+</body>
+</html>
