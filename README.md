@@ -20,6 +20,7 @@ and add the SkewPdfView Library as:
 dependencies {
 	        implementation 'com.github.naya-aastra:SkewPdfView:Tag'
 	}
+```
 
 # Include SkewPdfView in your layout
 
