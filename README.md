@@ -7,20 +7,21 @@ Add it in your root build.gradle at the end of repositories:
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 and add the SkewPdfView Library as:
 
 ```
 dependencies {
-	        implementation 'com.github.naya-aastra:SkewPdfView:Tag'
+   implementation 'com.github.naya-aastra:SkewPdfView:Tag'
 	}
 ```
+
 
 # Include SkewPdfView in your layout
 
