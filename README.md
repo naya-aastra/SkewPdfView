@@ -40,4 +40,7 @@ skewPdfView = findViewById(R.id.skewPdfView);
 skewPdfView.loadPdf(pdfLink);
 ```
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
