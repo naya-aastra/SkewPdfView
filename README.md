@@ -18,7 +18,7 @@ and add the SkewPdfView Library as:
 
 ```
 dependencies {
-   implementation 'com.github.naya-aastra:SkewPdfView:1.0'
+   implementation 'com.github.naya-aastra:SkewPdfView:1.1'
 	}
 ```
 
