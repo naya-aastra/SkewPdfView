@@ -25,6 +25,8 @@ dependencies {
 
 # Include SkewPdfView in your layout
 
+Add the following code to <your-layout-file>.xml
+
 ```xml
 <com.nayaastra.skewpdfview.SkewPdfView
         android:id="@+id/skewPdfView"
@@ -33,6 +35,8 @@ dependencies {
 ```
 
 # Load a PDF file
+
+Add the java code to <your-java-class>.java
 
 ```java
 SkewPdfView skewPdfView;
