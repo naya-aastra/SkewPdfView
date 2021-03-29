@@ -1,5 +1,8 @@
 # SkewPdfView
-An Android library to show pdf in your android applications.
+An Android library to show pdf in your android applications. I was learning to create android library so this may be the poorest implementation. Please 
+I am depressed. Don't complain about the codes 🥺🥺.
+
+Created by: Sulav Parajuli.
 
 ## Get SkewPdfView
 Add it in your root build.gradle at the end of repositories:
